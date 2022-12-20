@@ -1,3 +1,7 @@
+# Project Overview
+
+This project falls under the category of Web Development. This project demonstrates the use of Firebase as **BaaS or 'Backend as a Service'**. Data is sourced from various places and is displayed in the form of a heatmap. The heatmap resizes/intensifies depending on the concentration of data. User can select his/her region to comb out specific info from the heatmap.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
