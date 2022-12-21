@@ -1,6 +1,17 @@
 # Project Overview
 
-This project falls under the category of Web Development. This project demonstrates the use of Firebase as **BaaS or 'Backend as a Service'**. Data is sourced from various places and is displayed in the form of a heatmap. The heatmap resizes/intensifies depending on the concentration of data. User can select his/her region to comb out specific info from the heatmap.
+Deployed on https://covid-19-tracker-cfa43.web.app/. This project falls under the category of Web Development. This project demonstrates the use of Firebase as **BaaS or 'Backend as a Service'**. Data is sourced from various places and is displayed in the form of a heatmap. The heatmap resizes/intensifies depending on the concentration of data. User can select his/her region to comb out specific info from the heatmap.
+
+# Something to Ponder
+
+-useeffects and usestates are use to provide the dynamic effect to the web site.<br>
+-the app fetches the Covid data from an api using use effect.<br>
+-A map is incorporated in the application to provide the real time view of all the Covid cases around the world.<br>
+-Map is build using the react library react-leaflet. React-leaflet provides a map container which can be used to built a map inside our   application.<br>
+-The website is deployed using Firebase by using Firebase hosting feature.<br>
+-The api used for fetching the data of coronavirus is https://disease.sh/v3/covid-19/all.<br>
+-The data is in the form of a string. This is converted to json for using.<br>
+-the data collected from API is used to dynamically change the state of Covid cases, country information and the data on map using use state.<br>
 
 # Getting Started with Create React App
 
